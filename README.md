@@ -1,2 +1,2 @@
-# Mendix-UI-Theme-SilverLinings-
+# Mendix-UI-Theme-SilverLinings
 A Mendix DX Release Theme
