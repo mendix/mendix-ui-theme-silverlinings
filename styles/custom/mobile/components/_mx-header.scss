@@ -1,22 +1,14 @@
-/*
-* Mendix Documentation
-* Special styles for presenting mobile components
-*/
+/* ==========================================================================
+   Header
 
-
-/*
-* Header
-*
-* Default Mendix Header for Mobile 
-*/
-
+   Default Mendix Header for Mobile 
+========================================================================== */
 body .mx-header {
 
 	.mx-header-center {
 
 	}
 	.mx-header-left {	
-		// Link button
 		.mx-link {
 
 		}
@@ -24,13 +16,13 @@ body .mx-header {
 	.mx-header-right {	
 
 	}
-
-	// Title
 	.mx-title {
 
 	}
-
 	.btn-image.glyphicon {
 
+ 	}
+ 	.mx-sidebartoggle {
+ 		
  	}
 }

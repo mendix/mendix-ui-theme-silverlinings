@@ -1,22 +1,16 @@
-/*
-* Mendix Documentation
-* Special styles for presenting components
-*/
+/* ==========================================================================
+   Navigation
 
-
-/*
-* Navigation
-*
-* Default Mendix Navigation Bar
-*/
+   Default Mendix Navigation Bar
+========================================================================== */
 .mx-navbar {
 
 	ul.nav { 
 
-		/* Navigation item */
+		// Navigation item
 		> li.mx-navbar-item > a {
 
-			/* Dropdown arrow */
+			// Dropdown arrow
 			.caret {
 
 			}
@@ -33,7 +27,7 @@
 
             }
 
-			/* Dropdown Menu */
+			// Dropdown Menu
 			.mx-navbar-submenu:before {
 
 			}
@@ -43,7 +37,7 @@
 			}
 		}
 
-		/* When hovering or the dropdown is open */
+		// When hovering or the dropdown is open
 		> .mx-navbar-item > a:hover, 
 		> .mx-navbar-item > a:focus,
 		> .mx-navbar-item.active a,
@@ -85,14 +79,14 @@
 }
 
 
-/*
-* Navigation
-*
-* Default Mendix Navigation Tree
-*/
+/* ==========================================================================
+   Navigation
+
+   Default Mendix Navigation Tree
+========================================================================== */
 .mx-navigationtree {
 
-	/* Navigation item */
+	// Navigation item
 	.navbar-inner ul {
 
 		li {
@@ -123,7 +117,7 @@
 		}
 	}
 
-	/* Sub navigation item */
+	// Sub navigation item
 	li.mx-navigationtree-has-items {
 		> ul {
 
@@ -146,11 +140,11 @@
 }
 
 
-/*
-* Navigation
-*
-* Default Mendix Simple Menu Bar
-*/
+/* ==========================================================================
+   Navigation
+
+   Default Mendix Simple Menu Bar
+========================================================================== */
 .mx-menubar {
 
 	ul.mx-menubar-list {
@@ -171,23 +165,24 @@
 		}
 	}
 
-	/* Two menu items */
+	// Two menu items
 	&.menubar-col-6 ul.mx-menubar-list li.mx-menubar-item {
 		
 	}
-	/* Three menu items */
+	// Three menu items
 	&.menubar-col-4 ul.mx-menubar-list li.mx-menubar-item {
 		
 	}
-	/* Four menu items */
+	// Four menu items
 	&.menubar-col-3 ul.mx-menubar-list li.mx-menubar-item {
 		
 	}
-	/* Five menu items */
+	// Five menu items
 	&.menubar-col-3 ul.mx-menubar-list li.mx-menubar-item {
 		
 	}
 }
+
 /* Vertical variation specifics */
 .mx-menubar-vertical {
 	

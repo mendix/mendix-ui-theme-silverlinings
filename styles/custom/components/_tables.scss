@@ -1,21 +1,13 @@
-/*
-* Mendix Documentation
-* Special styles for presenting components
-*/
+/* ==========================================================================
+   Tables
 
-
-/*
-* Tables
-*
-* Default Mendix Table Widget. Tables can be used to lend structure to a page. They contain a number of rows (tr) and columns, the intersection of which is called a cell (td). Each cell can contain widgets
-*/
+   Default Mendix Table Widget. Tables can be used to lend structure to a page. They contain a number of rows (tr) and columns, the intersection of which is called a cell (td). Each cell can contain widgets
+========================================================================== */
 table.mx-table {
 	> tbody {
 
-		/* Table row */
 		> tr {
 
-			/* Table header */
 			> th {
 				
 				> label { 
@@ -23,7 +15,6 @@ table.mx-table {
 				}
 			}
 			
-			/* Table cells */
 			> td {
 				
 				> div > label,
@@ -36,11 +27,7 @@ table.mx-table {
 }
 
 
-/*
-* Tables
-*
-* Default Mendix Table Widget inside TemplateGrid
-*/
+/* Default Mendix Table Widget inside TemplateGrid */
 .mx-templategrid table.mx-table {
 	> tbody {
 		> tr {
@@ -53,11 +40,7 @@ table.mx-table {
 }
 
 
-/*
-* Tables
-*
-* Default Mendix Table Widget inside Listview
-*/
+/* Default Mendix Table Widget inside Listview */
 .mx-list table.mx-table {
 	> tbody {
 		> tr {
@@ -70,19 +53,16 @@ table.mx-table {
 }
 
 
-/*
-* Tables Lined
-*
-* Default Mendix Table Widget with borders top and bottom
-*/
+/* ==========================================================================
+   Tables Lined
+	
+   Default Mendix Table Widget with borders top and bottom
+========================================================================== */
 table.table-lined.mx-table {
 	> tbody {
 
-		// Table row
 		> tr {
 
-			// Table header
-			// Table data
 			> th,
 			> td {
 				
@@ -92,19 +72,16 @@ table.table-lined.mx-table {
 }
 
 
-/*
-* Tables Bordered
-*
-* Default Mendix Table Widget with borders
-*/
+/* ==========================================================================
+   Tables Bordered
+	
+   Default Mendix Table Widget with borders
+========================================================================== */
 table.table-bordered.mx-table {
 	> tbody {
 
-		// Table row
 		> tr {
 
-			// Table header
-			// Table data
 			> th ,
 			> td {
 				
@@ -114,19 +91,16 @@ table.table-bordered.mx-table {
 }
 
 
-/*
-* Tables Compact
-*
-* Default Mendix Table Widget with less spacing in table cells
-*/
+/* ==========================================================================
+   Tables Compact
+	
+   Default Mendix Table Widget with less spacing in table cells
+========================================================================== */
 table.table-compact.mx-table {
 	> tbody {
 
-		// Table row
 		> tr {
 
-			// Table header
-			// Table data
 			> th,
 			> td {
 				
@@ -136,19 +110,16 @@ table.table-compact.mx-table {
 }
 
 
-/*
-* Tables Sideless
-*
-* Default Mendix Table Widget inside TemplateGrid
-*/
+/* ==========================================================================
+   Tables Sideless
+	
+   Default Mendix Table Widget inside TemplateGrid
+========================================================================== */
 table.table-sideless.mx-table {
 	> tbody {
 
-		// Table row
 		> tr {
 
-			// Table header
-			// Table data
 			> td,
 			> th {
 				
@@ -162,19 +133,16 @@ table.table-sideless.mx-table {
 }
 
 
-/*
-* Tables Spaceless
-*
-* Default Mendix Table Widget without padding
-*/
+/* ==========================================================================
+   Tables Spaceless
+	
+   Default Mendix Table Widget without padding
+========================================================================== */
 table.table-spaceless.mx-table {
 	> tbody {
 
-		// Table row
 		> tr {
 
-			// Table header
-			// Table data
 			> th,
 			> td {
 				
@@ -184,11 +152,11 @@ table.table-spaceless.mx-table {
 }
 
 
-/*
-* Tables Vertical
-*
-* Default Mendix Table Widget vertical aligned 
-*/
+/* ==========================================================================
+   Tables Vertical
+	
+   Default Mendix Table Widget vertical aligned 
+========================================================================== */
 table.table-vertical.mx-table {
 	> tbody {
 
@@ -206,11 +174,11 @@ table.table-vertical.mx-table {
 }
 
 
-/*
-* Tables Vertical Middle
-*
-* Default Mendix Table Widget vertical aligned middle
-*/
+/* ==========================================================================
+   Tables Vertical Middle
+	
+   Default Mendix Table Widget vertical aligned middle
+========================================================================== */
 table.table-align-vertical-middle.mx-table {
 	> tbody {
 
@@ -228,11 +196,11 @@ table.table-align-vertical-middle.mx-table {
 }
 
 
-/*
-* Tables Compact
-*
-* Default Mendix Table Widget without padding and margin
-*/
+/* ==========================================================================
+   Tables Compact
+	
+   Default Mendix Table Widget without padding and margin
+========================================================================== */
 table.table-label-compact.mx-table {
 	> tbody {
 
@@ -256,12 +224,9 @@ table.table-label-compact.mx-table {
 }
 
 
-/*
-* Tables Row Sizes
-*
-* Default Mendix Table Widget without padding and margin
-*/
-
+/* ==========================================================================
+   Tables Row Sizes
+========================================================================== */
 // $height-row-s:		55px;
 // $height-row-m:		70px;
 // $height-row-l:		120px;

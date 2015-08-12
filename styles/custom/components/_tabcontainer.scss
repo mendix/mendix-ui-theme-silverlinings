@@ -1,15 +1,9 @@
-/*
-* Mendix Documentation
-* Special styles for presenting components
-*/
+/* ==========================================================================
+   Tab Container
 
-
-/*
-* Tab Container
-*
-* Default Mendix Tab Container Widget. Tab containers are used to show information categorized into multiple tab pages. 
-* This can be very useful if the amount of information that has to be displayed is larger than the amount of space on the screen
-*/
+   Default Mendix Tab Container Widget. Tab containers are used to show information categorized into multiple tab pages. 
+   This can be very useful if the amount of information that has to be displayed is larger than the amount of space on the screen
+========================================================================== */
 .mx-tabcontainer {
 	.mx-tabcontainer-tabs {
 
@@ -33,11 +27,11 @@
 }
 
 
-/*
-* Tab Container
-*
-* Default Mendix Tab Container Widget rendered as Pills
-*/
+/* ==========================================================================
+   Tab Container Pills
+
+   Default Mendix Tab Container Widget rendered as Pills
+========================================================================== */
 .tab-pills.mx-tabcontainer {
 	.mx-tabcontainer-tabs {
 
@@ -58,11 +52,11 @@
 }
 
 
-/*
-* Tab Container
-*
-* Default Mendix Tab Container Widget rendered with tabs rendered without background
-*/
+/* ==========================================================================
+   Tab Container Lined
+
+   Default Mendix Tab Container Widget rendered with tabs rendered without background
+========================================================================== */
 .tab-lined.mx-tabcontainer {
 	.mx-tabcontainer-tabs {
 
@@ -87,11 +81,11 @@
 }
 
 
-/*
-* Tab Container
-*
-* Default Mendix Tab Container Widget rendered as justified
-*/
+/* ==========================================================================
+   Tab Container Justified
+
+   Default Mendix Tab Container Widget rendered as justified
+========================================================================== */
 .tab-justified.mx-tabcontainer {
 	.mx-tabcontainer-tabs {
 
@@ -118,11 +112,11 @@
 }
 
 
-/*
-* Tab Container
-*
-* Default Mendix Tab Container Widget rendered with borders
-*/
+/* ==========================================================================
+   Tab Container Bordered
+
+   Default Mendix Tab Container Widget rendered with borders
+========================================================================== */
 .tab-bordered.mx-tabcontainer {
 	.mx-tabcontainer-tabs {
 

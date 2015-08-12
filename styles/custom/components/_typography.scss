@@ -1,14 +1,6 @@
-/*
-* Mendix Documentation
-* Special styles for presenting components
-*/
-
-
-/*
-* Typography
-*
-* Default Headers. 
-*/
+/* ==========================================================================
+   Typography
+========================================================================== */
 p {
 	
 }
@@ -31,11 +23,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 
-/*
-* Text Weights
-*
-* 
-*/
+/* Text Weights */
 .text-light, .text-light > *, .text-light label { 
 	
 }
@@ -50,11 +38,11 @@ h1, h2, h3, h4, h5, h6,
 }
 
 
-/*
-* Text Utility Classes
-*
-* Default Headers
-*/
+/* ==========================================================================
+   Typography
+
+   Text Utility Classes
+========================================================================== */
 .text-spacing {
 
 }
@@ -63,12 +51,11 @@ h1, h2, h3, h4, h5, h6,
 }
 
 
-/*
-* Text Colors
-*
-* 
-*/
-// Gray shades
+/* ==========================================================================
+   Typography
+
+   Text Colors
+========================================================================== */
 .text-gray-darker 	{ }				
 .text-gray-dark 	{ }
 .text-gray 			{ }
@@ -76,7 +63,6 @@ h1, h2, h3, h4, h5, h6,
 .text-gray-primary	{ }
 .text-gray-lighter	{ }	
 	 				 
-// Colors
 .text-default, .text-default:hover	{ }
 .text-primary, .text-primary:hover	{ }
 .text-info, .text-info:hover		{ }
@@ -84,7 +70,6 @@ h1, h2, h3, h4, h5, h6,
 .text-warning, .text-warning:hover	{ }
 .text-danger, .text-danger:hover	{ }
 
-// Text colors
 .text-black 						{ }
 .text-black-secondary				{ }
 .text-black-disabled 				{ }

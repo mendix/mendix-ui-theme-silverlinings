@@ -1,18 +1,12 @@
-/*
-* Mendix Documentation
-* Special styles for presenting components
-*/
+/* ==========================================================================
+   Datagrid Default
 
-
-/*
-* Datagrid
-*
-* Default Mendix Datagrid Widget. The datagrid shows a list of objects in a grid
-*/
+   Default Mendix Datagrid Widget. The datagrid shows a list of objects in a grid
+========================================================================== */
 .mx-datagrid {
 	.mx-datagrid-head-table {
 
-		/* Table header */
+		// Table header
 		th {
 
 		}
@@ -26,15 +20,11 @@
 	}
 	.mx-datagrid-body-table {
 
-		/* Table body */
+		// Table body
 		.mx-datagrid-body tr {
 			td {
 
 				&:focus {
-
-				}
-				/* Text without spaces */
-				.mx-datagrid-data-wrapper {
 
 				}
 			}
@@ -47,7 +37,7 @@
 			}
 		}
 		
-		/* Table footer */
+		// Table footer
 		.mx-datagrid-foot {
 
 			> tr > th {
@@ -65,12 +55,11 @@
 	}
 }
 
+/* ==========================================================================
+   Datagrid Striped
 
-/*
-* Datagrid Striped
-*
-* Default Mendix Datagrid Widget with striped rows
-*/
+   Default Mendix Datagrid Widget with striped rows
+========================================================================== */
 .datagrid-striped.mx-datagrid {
 	.mx-datagrid-head-table {
 		th {  
@@ -81,7 +70,6 @@
 		}
 	}
 	.mx-datagrid-body-table {
-		/* Body */
 		.mx-datagrid-body tr {
 			td {
 				
@@ -94,12 +82,11 @@
 }
 
 
+/* ==========================================================================
+   Datagrid Bordered
 
-/*
-* Datagrid Bordered
-*
-* Default Mendix Datagrid Widget with borders
-*/
+   Default Mendix Datagrid Widget with borders
+========================================================================== */
 .datagrid-bordered.mx-datagrid {
 	.mx-datagrid-head-table {
 		th { 
@@ -127,15 +114,13 @@
 }
 
 
+/* ==========================================================================
+   Datagrid Hover
 
-/*
-* Datagrid Hover
-*
-* Default Mendix Datagrid Widget with hover
-*/
+   Default Mendix Datagrid Widget with hover
+========================================================================== */
 .datagrid-hover.mx-datagrid { 
 	.mx-datagrid-body-table {
-		// Body
 		.mx-datagrid-body tr {
 			&:hover td {
 				
@@ -148,19 +133,17 @@
 }
 
 
+/* ==========================================================================
+   Datagrid Large
 
-/*
-* Datagrid Large
-*
-* Default Mendix Datagrid Widget with large rows
-*/
+   Default Mendix Datagrid Widget with large rows
+========================================================================== */
 .datagrid-large.mx-datagrid {
 	.mx-datagrid-head-table {
 		.mx-datagrid-head-wrapper {
 			
 		}
 	}
-
 	.mx-datagrid-body-table {
 		.mx-datagrid-body tr {
 			td {
@@ -171,12 +154,11 @@
 }
 
 
+/* ==========================================================================
+   Datagrid Transparent
 
-/*
-* Datagrid Transparent
-*
-* Default Mendix Datagrid Widget with transparent background for row and cells
-*/
+   Default Mendix Datagrid Widget with transparent background for row and cells
+========================================================================== */
 .datagrid-transparent.mx-datagrid {
 	.mx-datagrid-body-table {
 		.mx-datagrid-body tr {
@@ -191,11 +173,11 @@
 }
 
 
-/*
-* Datagrid Full Search
-*
-* Default Mendix Datagrid Widget with adjusted search field. Only 1 search field is allowed
-*/
+/* ==========================================================================
+   Datagrid Full Search
+
+   Default Mendix Datagrid Widget with adjusted search field. Only 1 search field is allowed
+========================================================================== */
 .datagrid-fullsearch.mx-datagrid {
 	.mx-grid-search-button {
 		

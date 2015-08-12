@@ -1,25 +1,9 @@
-/*
-* Base Layout
-*
-* Default layout settings
-*/
+/* ==========================================================================
+   Regions
 
-.mx-layoutcontainer-wrapper {
-	
-}
-.mx-layoutcontainer-wrapper.mx-layoutcontainer-nested {
-	
-}
-
-
-/*
-* Regions
-*
-* Used for navigation layouts
-*/
-
+   Used for navigation layouts
+========================================================================== */
 .region-topbar {
-
 	> .mx-layoutcontainer-wrapper {
 		
 	}
@@ -55,12 +39,11 @@
 
 }
 
-/*
-* Navbar Brand
-*
-* Used to style your app brand and logo
-*/
+/* ==========================================================================
+   Navbar Brand
 
+   Used to style your app brand and logo
+========================================================================== */
 .navbar-brand {
 
 	img {

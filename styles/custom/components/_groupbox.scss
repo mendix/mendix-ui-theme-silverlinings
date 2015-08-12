@@ -1,14 +1,8 @@
-/*
-* Mendix Documentation
-* Special styles for presenting components
-*/
+/* ==========================================================================
+   Groupbox
 
-
-/*
-* Groupbox
-*
-* Default Mendix Groupboxes
-*/
+   Default Mendix Groupboxes
+========================================================================== */
 .mx-groupbox {
 	> .mx-groupbox-header {
 
@@ -29,26 +23,11 @@
 	}
 }
 
+/* ==========================================================================
+   Groupbox Callouts
 
-/*
-* Groupbox Headers
-*
-* Alternate header sizes for groupbox
-*/
-.mx-groupbox {	
-	&.groupbox-h1 > .mx-groupbox-header {  } 
-	&.groupbox-h2 > .mx-groupbox-header {  }
-	&.groupbox-h3 > .mx-groupbox-header {  }
-	&.groupbox-h4 > .mx-groupbox-header {  }
-	&.groupbox-h5 > .mx-groupbox-header {  }
-	&.groupbox-h6 > .mx-groupbox-header {  }
-}
-
-/*
-* Groupbox Callouts
-*
-* Default Mendix Groupboxes rendered as (Bootstrap) callouts
-*/
+   Default Mendix Groupboxes rendered as (Bootstrap) callouts
+========================================================================== */
 .mx-groupbox {	
 	&.groupbox-callout {
 		> .mx-groupbox-header, 
