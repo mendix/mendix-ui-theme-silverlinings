@@ -563,16 +563,62 @@ h1, h2, h3, h4, h5, h6,
 /* ==========================================================================
    Special styles for presenting Page Template Form
 ========================================================================== */
+.page-form {
+  /* Styles here */
+}
+
+.page-form-default {
+  /* Styles here */
+}
+
+.page-form-imagemap {
+  /* Styles here */
+}
+
+.page-form-tabs {
+  /* Styles here */
+}
+
 /* ==========================================================================
    Special styles for presenting Page Template Master Detail
 ========================================================================== */
+.page-masterdetail {
+  /* Styles here */
+}
+
+.page-masterdetail-basic {
+  /* Styles here */
+}
+
+.page-masterdetail-big {
+  /* Styles here */
+}
+
+.page-masterdetail-imagemap {
+  /* Styles here */
+}
+
+.page-masterdetail-multilevel {
+  /* Styles here */
+}
+
 /* ==========================================================================
    Special styles for presenting Page Template Tabs
 ========================================================================== */
+.page-tabs {
+  /* Styles here */
+}
 .page-tabs .tabsfullwidth {
   background-color: #EFF4F7;
 }
 
+.page-tabs-default {
+  /* Styles here */
+}
+
+.page-tabs-fullwidth {
+  /* Styles here */
+}
 .page-tabs-fullwidth .pageheader.pageheader-fullwidth {
   border-style: none;
 }
@@ -580,9 +626,41 @@ h1, h2, h3, h4, h5, h6,
 /* ==========================================================================
    Special styles for presenting Page Template Website
 ========================================================================== */
+.page-website {
+  /* Styles here */
+}
+
+.page-website-actions {
+  /* Styles here */
+}
+
+.page-website-items {
+  /* Styles here */
+}
+
+.page-website-items-detail {
+  /* Styles here */
+}
+
+.page-website-presentation {
+  /* Styles here */
+}
+
 /* ==========================================================================
    Special styles for presenting Page Template Wizard
 ========================================================================== */
+.page-wizard {
+  /* Styles here */
+}
+
+.page-wizard-default {
+  /* Styles here */
+}
+
+.page-wizard-titlecentered {
+  /* Styles here */
+}
+
 /* ==========================================================================
    Special styles for presenting Page Template Phone
 ========================================================================== */
