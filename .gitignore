@@ -1,6 +1,6 @@
 # SASS cache
 .sass-cache
-.css.map
+*.css.map
 
 # Mac OS file
 .DS_Store
