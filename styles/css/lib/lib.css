@@ -888,6 +888,10 @@ textarea.form-control, textarea.readonly-input {
   height: 28px;
   font-size: 11px;
 }
+.mx-grid .mx-grid-searchbar .mx-grid-search-item .mx-grid-search-input select.form-control, .mx-grid .mx-grid-searchbar .mx-grid-search-item .mx-grid-search-input select.readonly-input {
+  vertical-align: middle;
+  padding: 3px;
+}
 .mx-grid .mx-grid-searchbar .mx-grid-search-item .mx-grid-search-input .mx-button {
   height: 28px;
   padding-top: 2px;
