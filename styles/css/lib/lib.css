@@ -2335,37 +2335,28 @@ img.img-auto,
   margin: 0;
 }
 .mx-navigationlist .mx-navigationlist-item {
-  padding: 10px;
-}
-.mx-navigationlist .mx-navigationlist-item:hover {
-  background-color: #FFF !important;
-}
-
-/* ==========================================================================
-   Navigation List Hover
-
-   Default Mendix Navigation List Widget with hover
-========================================================================== */
-.navigationlist-hover.mx-navigationlist .mx-navigationlist-item:hover, .navigationlist-hover.mx-navigationlist .mx-navigationlist-item:active {
-  background-color: shade(tint(#59C2E6, 80), 3) !important;
-}
-
-/* ==========================================================================
-   Navigation List Lined
-
-   Default Mendix Navigation List Widget border top between navigation list items
-========================================================================== */
-.navigationlist-lined.mx-navigationlist .mx-navigationlist-item {
-  border-top: 1px solid #DDD;
-  border-right: none;
-  border-left: none;
-}
-.navigationlist-lined.mx-navigationlist .mx-navigationlist-item:first-child {
+  padding: 15px 20px 15px 16px;
+  border-left: 4px solid transparent;
+  border-bottom: 1px solid #47494c;
+  border-top: none;
   border-radius: 0;
+  background-color: #3D3F41;
 }
-.navigationlist-lined.mx-navigationlist .mx-navigationlist-item:last-child {
-  border-radius: 0;
-  border-bottom: 1px solid #DDD;
+.mx-navigationlist .mx-navigationlist-item label {
+  font-weight: normal;
+  color: #FFF;
+  font-size: 14px;
+}
+.mx-navigationlist .mx-navigationlist-item:hover, .mx-navigationlist .mx-navigationlist-item:focus, .mx-navigationlist .mx-navigationlist-item.active {
+  background-color: #47494c;
+}
+.mx-navigationlist .mx-navigationlist-item:hover label, .mx-navigationlist .mx-navigationlist-item:focus label, .mx-navigationlist .mx-navigationlist-item.active label {
+  color: #59C2E6;
+}
+.mx-navigationlist .mx-navigationlist-item.active {
+  border-left-color: #59C2E6;
+  color: #59C2E6;
+  background-color: #515356;
 }
 
 /* ==========================================================================
