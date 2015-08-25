@@ -910,6 +910,7 @@ textarea.form-control, textarea.readonly-input {
 ========================================================================== */
 .mx-datagrid .mx-datagrid-head-table {
   border-width: 0;
+  background-color: transparent;
   /* Table header */
 }
 .mx-datagrid .mx-datagrid-head-table th {
