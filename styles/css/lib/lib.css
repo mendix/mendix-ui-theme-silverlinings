@@ -1155,7 +1155,10 @@ textarea.form-control, textarea.readonly-input {
 .dijitCalendarContainer .dijitCalendarSelectedDate:hover {
   border-radius: 10px;
   background: #59C2E6;
-  color: #FFF;
+}
+.dijitCalendarContainer .dijitCalendarSelectedDate .dijitCalendarDateLabel,
+.dijitCalendarContainer .dijitCalendarSelectedDate:hover .dijitCalendarDateLabel {
+  color: #fff;
 }
 .dijitCalendarContainer .dijitCalendarHoveredDate,
 .dijitCalendarContainer .dijitCalendarPreviousYearHover,
