@@ -1678,6 +1678,7 @@ textarea.form-control, textarea.readonly-input {
 /* Vertical Align Elements in a bootstrap row, add class on row */
 .v-center {
   display: table;
+  width: 100%;
 }
 .v-center div[class*='col-'] {
   display: table-cell;
@@ -2999,6 +3000,29 @@ h1, h2, h3, h4, h5, h6,
 * 
 */
 /* ==========================================================================
+   Action Block
+========================================================================== */
+.actionblock {
+  font-weight: bold;
+  padding: 20px 0;
+  margin: 10px 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+  white-space: nowrap;
+}
+.actionblock span {
+  display: block;
+  margin: auto auto 20px auto;
+  font-size: 72px;
+}
+.actionblock img {
+  height: 72px;
+  display: block;
+  margin: auto auto 20px auto;
+}
+
+/* ==========================================================================
    Card
 ========================================================================== */
 .card {
@@ -3213,7 +3237,6 @@ h1, h2, h3, h4, h5, h6,
 ========================================================================== */
 .masterdetail-listview {
   background-color: #EFF4F7;
-  height: 100%;
 }
 .masterdetail-listview .mx-listview {
   height: 100%;
