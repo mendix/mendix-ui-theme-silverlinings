@@ -2702,9 +2702,6 @@ table.table-fixed {
 .mx-templategrid .mx-templategrid-content-wrapper {
   table-layout: fixed;
 }
-.mx-templategrid .mx-templategrid-empty {
-  display: none;
-}
 .mx-templategrid .mx-templategrid-item {
   background-color: #FFF;
   padding: 8px 8px 8px 8px;
@@ -3594,6 +3591,78 @@ h1, h2, h3, h4, h5, h6,
 }
 
 /* ==========================================================================
+   Wizard Progress
+
+   Styling for Wizard (Progress Steps)
+========================================================================== */
+.wizard-progress {
+  border: 1px solid #DDD;
+  border-radius: 4px;
+  background-color: #eee;
+  position: relative;
+}
+
+.wizard-steps-container {
+  border-bottom: 1px solid #DDD;
+}
+
+.wizard-progress-step {
+  margin: 0;
+  padding: 14px 20px 14px 30px;
+  position: relative;
+  background: #eee;
+}
+.wizard-progress-step:after, .wizard-progress-step:before {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: solid transparent;
+  border-color: transparent;
+  content: " ";
+  pointer-events: none;
+  left: 100%;
+}
+.wizard-progress-step:before {
+  top: 50%;
+  margin-top: -25px;
+  border-width: 25px 15px;
+  border-left-color: #DDD;
+}
+.wizard-progress-step:after {
+  top: 50%;
+  margin-top: -24px;
+  border-width: 24px 14px;
+  border-left-color: #eee;
+}
+
+.wizard-progress-step-active {
+  background-color: #def3fa;
+}
+.wizard-progress-step-active:after {
+  border-left-color: #def3fa;
+}
+
+.wizard-progress-number {
+  display: inline-block;
+  padding: 1px 7px;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  background-color: #999;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.wizard-progress-title {
+  color: #59C2E6;
+}
+
+.wizard-step-content {
+  padding: 10px 20px;
+}
+
+/* ==========================================================================
    Templategrid Profile Card
 
    Profile card styled for templategrid
@@ -4119,7 +4188,6 @@ body[dir="ltr"] .mx-header-right {
 @media (min-width: 768px) {
   .layout-sidebar-responsive .region-sidebar-fixed {
     position: fixed;
-    left: 0;
     z-index: 10;
     display: block;
     overflow-x: hidden;
@@ -4131,6 +4199,18 @@ body[dir="ltr"] .mx-header-right {
 @media (min-width: 768px) {
   .layout-sidebar-responsive .mx-scrollcontainer-open {
     left: -200px !important;
+  }
+}
+
+@media (min-width: 768px) {
+  body[dir="rtl"] .layout-sidebar-responsive .region-sidebar-fixed {
+    right: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  body[dir="ltr"] .layout-sidebar-responsive .region-sidebar-fixed {
+    left: 0;
   }
 }
 
