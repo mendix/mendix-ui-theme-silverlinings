@@ -24,7 +24,7 @@ The base folder holds the *architecture* for our framework. Here we have our *mi
 This directory contains all kind of basic components like a datagrid, buttons, label, form, listview, or anything along those lines. They have distinct properties and can't be broken down further without losing their meaning.
 
 ###### Building Blocks
-Building blocks are combined components/widgets. For example *cards* or *headers* are building blocks. A building block could be an image, title and a button.
+Building blocks are combined components/widgets. For example *cards* or *headers* are building blocks. A building block could be an image, title and a button built together.
 
 ###### Layouts
 The layout directory contains some styles for the main sections of the layout (topbar, sidebar, footer and so on).
