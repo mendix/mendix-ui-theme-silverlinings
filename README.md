@@ -18,13 +18,13 @@ We created a framework so our users have a clear understanding what Mendix is ca
 - Mobile
 
 ###### Base
-The base folder holds the *architecture* for our framework. Here we load in our *mixins*, *variables* and *resets*. The variables is what makes our framework, which holds all global variables for the project (for typography, color schemes, and so on).
+The base folder holds the *architecture* for our framework. Here we have our *mixins*, *variables* and *resets*. The variables is what makes our framework, which holds all global variables for the project (for typography, color schemes, and so on).
+
+###### Components
+This directory contains all kind of basic components like a datagrid, buttons, label, form, listview, or anything along those lines. They have distinct properties and can't be broken down further without losing their meaning.
 
 ###### Building Blocks
 Building blocks are combined components/widgets. For example *cards* or *headers* are building blocks. A building block could be an image, title and a button.
-
-###### Components
-It can contain all kinds of specific components like a datagrid, buttons, listview, or anything along those lines. There are usually a lot of files in components since Mendix uses a lot widgets/components.
 
 ###### Layouts
 The layout directory contains some styles for the main sections of the layout (topbar, sidebar, footer and so on).
@@ -33,7 +33,7 @@ The layout directory contains some styles for the main sections of the layout (t
 The mobile directory include specific styling for your tablet or phone pages and widgets. This is useful to target only mobile use cases.
 
 ##### Custom Folder
-The custom folder is a duplication from the library folder. We advice all of our users to make their customizations in this folder. We made sure you are able to easily find all the elements and resources needed to style an Mendix application.
+The custom folder is a duplication from the library folder. We advice all of our users to make their customizations in this folder so you can always go back to the library. We made sure you are able to easily find all the elements and resources needed to style an Mendix application.
 
 ###### Custom Variables file
 It's possible to do almost all your default styling in the *_custom-variables* file. In this file you are able to change your default colors, layouts, spacing, typography, widgets and more.
@@ -53,10 +53,10 @@ This file is needed for creating hybrid apps with Mendix. Read more about this [
 Sass/Compass compilers need a config file called config.rb in which the settings of the project are defined. The compiler will read this and use the settings when compiling your css.
 
 ### Where to place the theme files
-The theme has to be added to the following folder */project-directory/theme*. Make sure to place all the files in the */theme/* folder directly. When you use the Mendix App Store the theme will be automatically placed in the correct folder
+The theme has to be added to the following folder */project-directory/theme*. Make sure to place all the files in the */theme/* folder directly. When you use the Mendix App Store the theme will be automatically placed in the correct folder.
 
 ### Useful links
-- [Live theme demo](https://ux.mendix.com/index-theme-silverlinings.html)
+- [Live theme demo](https://ux.mendix.com/index-theme-silver_linings.html)
 - [Mendix UI Framework Website](https://ux.mendix.com/)
 - [Blog article about Mendix UI Framework](https://www.mendix.com/blog/the-eye-catching-mendix-ui-framework/)
 - [Create a custom theme with the Mendix UI Framework](https://world.mendix.com/display/howto50/Create+a+custom+theme+with+the+Mendix+UI+Framework)
