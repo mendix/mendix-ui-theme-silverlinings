@@ -1,3 +1,52 @@
+@charset "UTF-8";
+/*
+██████╗  █████╗ ███████╗██╗ ██████╗
+██╔══██╗██╔══██╗██╔════╝██║██╔════╝
+██████╔╝███████║███████╗██║██║     
+██╔══██╗██╔══██║╚════██║██║██║     
+██████╔╝██║  ██║███████║██║╚██████╗
+╚═════╝ ╚═╝  ╚═╝╚══════╝╚═╝ ╚═════╝
+*/
+/*
+ █████╗ ██████╗ ██╗   ██╗ █████╗ ███╗   ██╗ ██████╗███████╗██████╗ 
+██╔══██╗██╔══██╗██║   ██║██╔══██╗████╗  ██║██╔════╝██╔════╝██╔══██╗
+███████║██║  ██║██║   ██║███████║██╔██╗ ██║██║     █████╗  ██║  ██║
+██╔══██║██║  ██║╚██╗ ██╔╝██╔══██║██║╚██╗██║██║     ██╔══╝  ██║  ██║
+██║  ██║██████╔╝ ╚████╔╝ ██║  ██║██║ ╚████║╚██████╗███████╗██████╔╝
+╚═╝  ╚═╝╚═════╝   ╚═══╝  ╚═╝  ╚═╝╚═╝  ╚═══╝ ╚═════╝╚══════╝╚═════╝ 
+*/
+/*
+███████╗██╗  ██╗██████╗ ███████╗██████╗ ████████╗
+██╔════╝╚██╗██╔╝██╔══██╗██╔════╝██╔══██╗╚══██╔══╝
+█████╗   ╚███╔╝ ██████╔╝█████╗  ██████╔╝   ██║   
+██╔══╝   ██╔██╗ ██╔═══╝ ██╔══╝  ██╔══██╗   ██║   
+███████╗██╔╝ ██╗██║     ███████╗██║  ██║   ██║   
+╚══════╝╚═╝  ╚═╝╚═╝     ╚══════╝╚═╝  ╚═╝   ╚═╝   
+*/
+/*
+██████╗  █████╗ ███████╗██╗ ██████╗
+██╔══██╗██╔══██╗██╔════╝██║██╔════╝
+██████╔╝███████║███████╗██║██║     
+██╔══██╗██╔══██║╚════██║██║██║     
+██████╔╝██║  ██║███████║██║╚██████╗
+╚═════╝ ╚═╝  ╚═╝╚══════╝╚═╝ ╚═════╝
+*/
+/*
+ █████╗ ██████╗ ██╗   ██╗ █████╗ ███╗   ██╗ ██████╗███████╗██████╗ 
+██╔══██╗██╔══██╗██║   ██║██╔══██╗████╗  ██║██╔════╝██╔════╝██╔══██╗
+███████║██║  ██║██║   ██║███████║██╔██╗ ██║██║     █████╗  ██║  ██║
+██╔══██║██║  ██║╚██╗ ██╔╝██╔══██║██║╚██╗██║██║     ██╔══╝  ██║  ██║
+██║  ██║██████╔╝ ╚████╔╝ ██║  ██║██║ ╚████║╚██████╗███████╗██████╔╝
+╚═╝  ╚═╝╚═════╝   ╚═══╝  ╚═╝  ╚═╝╚═╝  ╚═══╝ ╚═════╝╚══════╝╚═════╝ 
+*/
+/*
+███████╗██╗  ██╗██████╗ ███████╗██████╗ ████████╗
+██╔════╝╚██╗██╔╝██╔══██╗██╔════╝██╔══██╗╚══██╔══╝
+█████╗   ╚███╔╝ ██████╔╝█████╗  ██████╔╝   ██║   
+██╔══╝   ██╔██╗ ██╔═══╝ ██╔══╝  ██╔══██╗   ██║   
+███████╗██╔╝ ██╗██║     ███████╗██║  ██║   ██║   
+╚══════╝╚═╝  ╚═╝╚═╝     ╚══════╝╚═╝  ╚═╝   ╚═╝   
+*/
 @media (max-width: 767px) {
   .mx-grid,
   .mx-tabcontainer,
@@ -270,7 +319,7 @@ textarea.form-control, textarea.readonly-input {
   cursor: pointer;
 }
 .mx-fileinput .mx-wrapped-form .mx-fileinput-upload-button:hover {
-  background-color: #DDD;
+  background-color: #DDDDDD;
 }
 
 /* ==========================================================================
@@ -328,11 +377,11 @@ textarea.form-control, textarea.readonly-input {
 }
 
 .background-layout-secondary {
-  background-color: #FFF !important;
+  background-color: #EFF4F7 !important;
 }
 
 .background-default {
-  background-color: #DDD !important;
+  background-color: #DDDDDD !important;
 }
 
 .background-default-darker {
@@ -500,11 +549,10 @@ textarea.form-control, textarea.readonly-input {
   border-radius: 4px;
   box-shadow: none;
   padding: 8px 14px;
-  background-color: #DDD;
+  background-color: #DDDDDD;
   color: #000;
   text-shadow: none;
   font-size: 12px;
-  text-transform: uppercase;
   line-height: 1.42857;
 }
 .btn:hover, .btn:focus, .btn:active,
@@ -536,8 +584,8 @@ textarea.form-control, textarea.readonly-input {
 }
 
 .btn-default {
-  border-color: #DDD;
-  background-color: #DDD;
+  border-color: #DDDDDD;
+  background-color: #DDDDDD;
   color: #000;
 }
 .btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open > .btn-default.dropdown-toggle {
@@ -549,16 +597,16 @@ textarea.form-control, textarea.readonly-input {
   background-image: none;
 }
 .btn-default.disabled, .btn-default.disabled:hover, .btn-default.disabled:focus, .btn-default.disabled:active, .btn-default.disabled.active, .btn-default[disabled], .btn-default[disabled]:hover, .btn-default[disabled]:focus, .btn-default[disabled]:active, .btn-default[disabled].active, fieldset[disabled] .btn-default, fieldset[disabled] .btn-default:hover, fieldset[disabled] .btn-default:focus, fieldset[disabled] .btn-default:active, fieldset[disabled] .btn-default.active {
-  border-color: #DDD;
-  background-color: #DDD;
+  border-color: #DDDDDD;
+  background-color: #DDDDDD;
 }
 .btn-default.btn-bordered {
   background-color: transparent;
-  color: #DDD;
+  color: #DDDDDD;
 }
 .btn-default.btn-bordered:hover, .btn-default.btn-bordered:focus, .btn-default.btn-bordered:active, .btn-default.btn-bordered.active, .open > .btn-default.btn-bordered.dropdown-toggle {
-  background-color: #DDD;
-  border-color: #DDD;
+  background-color: #DDDDDD;
+  border-color: #DDDDDD;
   color: #000;
 }
 
@@ -728,33 +776,6 @@ textarea.form-control, textarea.readonly-input {
   color: #FFF;
 }
 
-.btn-white {
-  border-color: #FFF;
-  background-color: #FFF;
-  color: #000;
-}
-.btn-white:hover, .btn-white:focus, .btn-white:active, .btn-white.active, .open > .btn-white.dropdown-toggle {
-  border-color: #e6e6e6;
-  background-color: #e6e6e6;
-  color: #000;
-}
-.btn-white:active, .btn-white.active, .open > .btn-white.dropdown-toggle {
-  background-image: none;
-}
-.btn-white.disabled, .btn-white.disabled:hover, .btn-white.disabled:focus, .btn-white.disabled:active, .btn-white.disabled.active, .btn-white[disabled], .btn-white[disabled]:hover, .btn-white[disabled]:focus, .btn-white[disabled]:active, .btn-white[disabled].active, fieldset[disabled] .btn-white, fieldset[disabled] .btn-white:hover, fieldset[disabled] .btn-white:focus, fieldset[disabled] .btn-white:active, fieldset[disabled] .btn-white.active {
-  border-color: #FFF;
-  background-color: #FFF;
-}
-.btn-white.btn-bordered {
-  background-color: transparent;
-  color: #FFF;
-}
-.btn-white.btn-bordered:hover, .btn-white.btn-bordered:focus, .btn-white.btn-bordered:active, .btn-white.btn-bordered.active, .open > .btn-white.btn-bordered.dropdown-toggle {
-  background-color: #FFF;
-  border-color: #FFF;
-  color: #000;
-}
-
 .btn-link {
   border: 0;
   background-color: transparent;
@@ -841,7 +862,7 @@ textarea.form-control, textarea.readonly-input {
 /* ==========================================================================
    Grid
 
-   Default Mendix Grid
+   Default Mendix Grid (used for Mendix Datagrid)
 ========================================================================== */
 .mx-grid {
   border-radius: 0;
@@ -1386,12 +1407,12 @@ textarea.form-control, textarea.readonly-input {
   font-weight: bold;
   border-radius: 0;
   margin: 0;
-  background: #DDD;
+  background: #DDDDDD;
   color: #000;
   font-size: 16px;
   border-style: solid;
   border-width: 1px 1px 0 1px;
-  border-color: #DDD;
+  border-color: #DDDDDD;
 }
 .mx-groupbox > .mx-groupbox-header .mx-groupbox-collapse-icon {
   margin-top: 0.1em;
@@ -1399,7 +1420,7 @@ textarea.form-control, textarea.readonly-input {
 .mx-groupbox > .mx-groupbox-body {
   border-radius: 0;
   padding: 10px 15px;
-  border-color: #DDD;
+  border-color: #DDDDDD;
   background-color: #FFF;
   border-style: solid;
   border-width: 1px;
@@ -1480,12 +1501,12 @@ textarea.form-control, textarea.readonly-input {
    Groupbox Colors
 ========================================================================== */
 .mx-groupbox.groupbox-default > .mx-groupbox-header {
-  background: #DDD;
+  background: #DDDDDD;
   color: #000;
-  border-color: #DDD;
+  border-color: #DDDDDD;
 }
 .mx-groupbox.groupbox-default > .mx-groupbox-body {
-  border-color: #DDD;
+  border-color: #DDDDDD;
 }
 .mx-groupbox.groupbox-primary > .mx-groupbox-header {
   background: #59C2E6;
@@ -1736,7 +1757,7 @@ img.img-thumbnail,
   padding: 4px;
   line-height: 1.42857;
   background-color: #fff;
-  border: 1px solid #DDD;
+  border: 1px solid #DDDDDD;
 }
 
 img.img-circle,
@@ -1771,7 +1792,7 @@ img.img-auto,
 }
 
 .label-default {
-  background-color: #DDD;
+  background-color: #DDDDDD;
   color: #000;
 }
 
@@ -2022,15 +2043,15 @@ img.img-auto,
   font-weight: normal;
   border-radius: 0;
   padding: 15px 20px;
-  color: #000;
+  color: #AAA;
   font-size: 14px;
   vertical-align: middle;
   /* Dropdown arrow */
   /* Dropdown */
 }
 .mx-navbar ul.nav > li.mx-navbar-item > a .caret {
-  border-top-color: #000;
-  border-bottom-color: #000;
+  border-top-color: #AAA;
+  border-bottom-color: #AAA;
 }
 .mx-navbar ul.nav > li.mx-navbar-item > a:hover, .mx-navbar ul.nav > li.mx-navbar-item > a:focus, .mx-navbar ul.nav > li.mx-navbar-item > a.active {
   background-color: whitesmoke;
@@ -2107,7 +2128,7 @@ img.img-auto,
     font-weight: normal;
     padding: 10px 20px;
     border-radius: 0;
-    color: #666666;
+    color: #AAA;
     font-size: 12px;
   }
   .mx-navbar .mx-navbar-item.open .dropdown-menu > li.mx-navbar-subitem > a:hover, .mx-navbar .mx-navbar-item.open .dropdown-menu > li.mx-navbar-subitem > a:focus {
@@ -2314,7 +2335,7 @@ img.img-auto,
   background-color: #FFF;
 }
 .mx-menubar-vertical ul.mx-menubar-list li.mx-menubar-item a {
-  color: #000;
+  color: #AAA;
   font-size: 14px;
   border-bottom: 1px solid whitesmoke;
 }
@@ -2529,7 +2550,7 @@ table.mx-table > tbody > tr > th {
 }
 table.mx-table > tbody > tr > th * {
   font-weight: bold;
-  color: #666666;
+  color: #666;
   font-weight: normal;
 }
 table.mx-table > tbody > tr > th > label {
@@ -2997,6 +3018,233 @@ h1, h2, h3, h4, h5, h6,
 * 
 */
 /* ==========================================================================
+   Special styles for presenting Page Template Dashboard
+========================================================================== */
+.page-dashboard {
+  background-color: #EFF4F7;
+}
+.page-dashboard .chartjs-node {
+  margin-top: 30px;
+}
+
+.page-dashboard-default .card {
+  min-height: 345px;
+}
+
+.page-dashboard-mytasks .card {
+  min-height: 320px;
+}
+
+/* ==========================================================================
+   Special styles for presenting Page Template Form
+========================================================================== */
+.page-form {
+  /* Styles here */
+}
+
+.page-form-default {
+  /* Styles here */
+}
+
+.page-form-imagemap {
+  /* Styles here */
+}
+
+.page-form-tabs {
+  /* Styles here */
+}
+
+/* ==========================================================================
+   Special styles for presenting Page Template Master Detail
+========================================================================== */
+.page-masterdetail {
+  /* Styles here */
+}
+
+.page-masterdetail-basic {
+  /* Styles here */
+}
+
+.page-masterdetail-big {
+  /* Styles here */
+}
+
+.page-masterdetail-imagemap {
+  /* Styles here */
+}
+
+.page-masterdetail-multilevel {
+  /* Styles here */
+}
+
+/* ==========================================================================
+   Special styles for presenting Page Template Tabs
+========================================================================== */
+.page-tabs {
+  /* Styles here */
+}
+.page-tabs .tabsfullwidth {
+  background-color: #EFF4F7;
+}
+
+.page-tabs-default {
+  /* Styles here */
+}
+
+.page-tabs-fullwidth {
+  /* Styles here */
+}
+.page-tabs-fullwidth .pageheader.pageheader-fullwidth {
+  border-style: none;
+}
+
+/* ==========================================================================
+   Special styles for presenting Page Template Website
+========================================================================== */
+.page-website {
+  /* Styles here */
+}
+
+.page-website-actions {
+  /* Styles here */
+}
+
+.page-website-items {
+  /* Styles here */
+}
+
+.page-website-items-detail {
+  /* Styles here */
+}
+
+.page-website-presentation {
+  /* Styles here */
+}
+
+/* ==========================================================================
+   Special styles for presenting Page Template Wizard
+========================================================================== */
+.page-wizard {
+  /* Styles here */
+}
+
+.page-wizard-default {
+  /* Styles here */
+}
+
+.page-wizard-titlecentered {
+  /* Styles here */
+}
+
+/* ==========================================================================
+   Special styles for presenting Page Template Phone
+========================================================================== */
+.phone-page-dashboard {
+  background-color: #EFF4F7;
+}
+
+.phone-page-dashboard-default {
+  /* Styles here */
+}
+
+/* ==========================================================================
+   Special styles for presenting Page Template Phone Form
+========================================================================== */
+.phone-page-form {
+  /* Styles here */
+}
+
+.phone-page-form-default {
+  /* Styles here */
+}
+
+.phone-page-form-edit {
+  /* Styles here */
+}
+
+/* ==========================================================================
+   Special styles for presenting Page Template Phone Listview
+========================================================================== */
+.phone-page-listview {
+  /* Styles here */
+}
+
+.phone-page-listview-default {
+  /* Styles here */
+}
+
+/* ==========================================================================
+   Special styles for presenting Page Template Phone Wizard
+========================================================================== */
+.phone-page-wizard {
+  /* Styles here */
+}
+
+.phone-page-wizard-default {
+  /* Styles here */
+}
+
+/* ==========================================================================
+   Special styles for presenting Page Template Tablet Dashboard
+========================================================================== */
+.tablet-page-dashboard {
+  background-color: #EFF4F7;
+}
+
+.tablet-page-dashboard-default {
+  /* Styles here */
+}
+
+.tablet-page-dashboard-big {
+  /* Styles here */
+}
+
+.tablet-page-dashboard-mytasks {
+  /* Styles here */
+}
+
+/* ==========================================================================
+   Special styles for presenting Page Template Tablet Form
+========================================================================== */
+.tablet-page-form {
+  /* Styles here */
+}
+
+.tablet-page-form-default {
+  /* Styles here */
+}
+
+.tablet-page-form-edit {
+  /* Styles here */
+}
+
+/* ==========================================================================
+   Special styles for presenting Page Template Tablet Master Detail
+========================================================================== */
+.tablet-page-masterdetail {
+  /* Styles here */
+}
+
+.tablet-page-masterdetail-default {
+  /* Styles here */
+}
+
+.tablet-page-masterdetail-leftright {
+  /* Styles here */
+}
+
+/* ==========================================================================
+   Special styles for presenting Page Template Tablet Wizard
+========================================================================== */
+.tablet-page-wizard {
+  /* Styles here */
+}
+
+.tablet-page-wizard-default {
+  /* Styles here */
+}
+
+/* ==========================================================================
    Action Block
 ========================================================================== */
 .actionblock {
@@ -3198,11 +3446,11 @@ h1, h2, h3, h4, h5, h6,
 /* ==========================================================================
    Form
 
-   To extend the default form
+   To extend the default Bootstrap form
 ========================================================================== */
 .form-group .control-label {
   margin-bottom: 5px;
-  color: #666666;
+  color: #666;
   font-weight: normal;
 }
 
@@ -3282,6 +3530,10 @@ h1, h2, h3, h4, h5, h6,
 .multilevel-list .mx-listview-list .mx-listview-item.selected {
   border-left: 4px solid #59C2E6;
   background-color: #eee !important;
+}
+
+.multilevel-title {
+  font-weight: bold;
 }
 
 .multilevel-subtitle {
@@ -4217,7 +4469,7 @@ body[dir="ltr"] .mx-header-right {
 /* ==========================================================================
    Navbar Brand
 
-   Used to style your app brand and logo
+   For your company, product, or project name
 ========================================================================== */
 .navbar-brand {
   display: block;
