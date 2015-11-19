@@ -3532,7 +3532,7 @@ h1, h2, h3, h4, h5, h6,
   background-color: #eee !important;
 }
 
-.multilevel-title {
+.multilevel-title label {
   font-weight: bold;
 }
 
@@ -3563,9 +3563,9 @@ h1, h2, h3, h4, h5, h6,
   border-style: none;
 }
 .multilevel-grid .mx-datagrid-body-table {
-  border-left: 1px solid #ddd;
-  border-right: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
+  border-left: 1px solid #DDD;
+  border-right: 1px solid #DDD;
+  border-bottom: 1px solid #DDD;
 }
 .multilevel-grid .mx-datagrid-body-table .mx-datagrid-body tr td {
   border-color: #eee;
