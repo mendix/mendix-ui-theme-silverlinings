@@ -4426,7 +4426,8 @@ body[dir="ltr"] .mx-header-right {
   display: block;
   min-height: 80px;
   float: left;
-  padding: 22px 0;
+  padding: 0;
+  line-height: 80px;
 }
 .navbar-brand img {
   height: 37px;
