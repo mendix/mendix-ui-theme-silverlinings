@@ -546,18 +546,29 @@ h1, h2, h3, h4, h5, h6,
    Special styles for presenting Page Template Dashboard
 ========================================================================== */
 .page-dashboard {
-  background-color: #EFF4F7;
-}
-.page-dashboard .chartjs-node {
-  margin-top: 30px;
+  /* Styles here */
 }
 
+.page-dashboard-default {
+  /* Styles here */
+}
 .page-dashboard-default .card {
-  min-height: 345px;
+  /* Styles here */
 }
 
+.page-dashboard-mytasks {
+  /* Styles here */
+}
 .page-dashboard-mytasks .card {
-  min-height: 320px;
+  /* Styles here */
+}
+
+.page-dashboard-actions {
+  /* Styles here */
+}
+
+.page-dashboard-actions-tasks {
+  /* Styles here */
 }
 
 /* ==========================================================================
@@ -609,7 +620,7 @@ h1, h2, h3, h4, h5, h6,
   /* Styles here */
 }
 .page-tabs .tabsfullwidth {
-  background-color: #EFF4F7;
+  /* Styles here */
 }
 
 .page-tabs-default {
@@ -620,7 +631,7 @@ h1, h2, h3, h4, h5, h6,
   /* Styles here */
 }
 .page-tabs-fullwidth .pageheader.pageheader-fullwidth {
-  border-style: none;
+  /* Styles here */
 }
 
 /* ==========================================================================
@@ -665,7 +676,7 @@ h1, h2, h3, h4, h5, h6,
    Special styles for presenting Page Template Phone
 ========================================================================== */
 .phone-page-dashboard {
-  background-color: #EFF4F7;
+  /* Styles here */
 }
 
 .phone-page-dashboard-default {
@@ -713,7 +724,7 @@ h1, h2, h3, h4, h5, h6,
    Special styles for presenting Page Template Tablet Dashboard
 ========================================================================== */
 .tablet-page-dashboard {
-  background-color: #EFF4F7;
+  /* Styles here */
 }
 
 .tablet-page-dashboard-default {

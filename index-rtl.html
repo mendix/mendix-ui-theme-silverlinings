@@ -7,32 +7,20 @@
         <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1">
         <meta name="apple-mobile-web-app-capable" content="yes">
         <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css?{{cachebust}}">
+        <link rel="stylesheet" href="lib/bootstrap-rtl/css/bootstrap-rtl.min.css?{{cachebust}}">
         <link rel="stylesheet" href="mxclientsystem/mxui/ui/mxui.css?{{cachebust}}">
-   
+
         <link rel="stylesheet" href="styles/css/lib/lib.css?{{cachebust}}">
         <link rel="stylesheet" href="styles/css/custom/custom.css?{{cachebust}}">
-
-        <!-- ICONS EXAMPLE -->
-
-        <!-- iPhone retina icon (iOS < 7) -->
-        <!-- <link href="resources/ios/icons/apple-touch-icon-precomposed-114x114.png" sizes="114x114" rel="apple-touch-icon-precomposed"> -->
-
-        <!-- STARTUP IMAGES -->
-        <!-- <link href="resources/ios/startup/apple-touch-startup-image-1496x2048.png" media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" rel="apple-touch-startup-image"> -->
-
     </head>
-    <body dir="ltr">
+    <body dir="rtl">
         <div id="content"></div>
         <script>
             dojoConfig = {
                 baseUrl: "mxclientsystem/dojo/",
                 cacheBust: "{{cachebust}}",
-                rtlRedirect: "index-rtl.html"
+                ltrRedirect: "index.html"
             };
-        </script>
-        <script>
-            if (!document.cookie || !document.cookie.match(/(^|;)originURI=/gi))
-                document.cookie = "originURI=/login.html";
         </script>
         <script src="mxclientsystem/mxui/mxui.js?{{cachebust}}"></script>
     </body>
