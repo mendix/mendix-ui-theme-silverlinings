@@ -4326,10 +4326,15 @@ body[dir="ltr"] .mx-header-right {
 .region-topbar .toggle-btn {
   font-size: 16px;
   float: left;
-  margin: 20px 15px 0 0;
+  margin: -20px 15px 0 0;
+  transform: translateY(40px);
+}
+.region-topbar .navbar-header {
+  width: 100%;
 }
 .region-topbar .navbar-right {
   min-height: 80px;
+  max-width: 100%;
 }
 .region-topbar .navbar-right .mx-appswitcher-button-placeholder,
 .region-topbar .navbar-right .mx-profilemenu-button-placeholder {
@@ -4339,6 +4344,7 @@ body[dir="ltr"] .mx-header-right {
   height: 80px;
   position: relative;
   float: left;
+  max-width: 50%;
 }
 .region-topbar .navbar-right .mx-appswitcher-button-placeholder iframe,
 .region-topbar .navbar-right .mx-profilemenu-button-placeholder iframe {
@@ -4350,9 +4356,6 @@ body[dir="ltr"] .mx-header-right {
   bottom: 0;
   left: 0;
   margin: auto auto;
-}
-.region-topbar .navbar-right .mx-profilemenu-button-placeholder {
-  margin-right: 10px;
 }
 @media (max-width: 768px) {
   .region-topbar .navbar-right {
@@ -4480,5 +4483,6 @@ body[dir="ltr"] .mx-header-right {
   }
 }
 .navlayout-topbar .region-topbar .mx-navbar ul.nav > li.mx-navbar-item > a {
-  padding: 30px;
+  padding: 0 30px;
+  line-height: 80px;
 }
