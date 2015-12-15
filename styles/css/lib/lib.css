@@ -3014,7 +3014,8 @@ h1, h2, h3, h4, h5, h6,
    Special styles for presenting Page Template Login
 ========================================================================== */
 .page-login-users .profilecard:hover, .page-login-users .profilecard:focus {
-  background-color: rgba(255, 255, 255, 0.8);
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+  opacity: 0.8;
 }
 .page-login-users .mx-navigationlist .mx-navigationlist-item {
   padding: 0;
