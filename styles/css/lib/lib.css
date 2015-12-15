@@ -3821,13 +3821,16 @@ h1, h2, h3, h4, h5, h6,
   background-color: #eee;
   position: relative;
 }
+.wizard-progress [class*=col-]:first-child .wizard-progress-step {
+  margin-left: 0;
+}
 
 .wizard-steps-container {
   border-bottom: 1px solid #DDD;
 }
 
 .wizard-progress-step {
-  margin: 0;
+  margin: 0 0 0 -30px;
   padding: 14px 20px 14px 30px;
   position: relative;
   background: #eee;
@@ -3841,6 +3844,7 @@ h1, h2, h3, h4, h5, h6,
   content: " ";
   pointer-events: none;
   left: 100%;
+  z-index: 10;
 }
 .wizard-progress-step:before {
   top: 50%;
@@ -3860,6 +3864,22 @@ h1, h2, h3, h4, h5, h6,
 }
 .wizard-progress-step-active:after {
   border-left-color: #def3fa;
+}
+.wizard-progress-step-active .wizard-progress-number {
+  background-color: #59C2E6;
+}
+
+.wizard-progress-step-visited {
+  background-color: #def3fa;
+}
+.wizard-progress-step-visited:after {
+  border-left-color: #def3fa;
+}
+.wizard-progress-step-visited .wizard-progress-number {
+  background-color: #8CC152;
+}
+.wizard-progress-step-visited .wizard-progress-title {
+  color: #8CC152;
 }
 
 .wizard-progress-number {
