@@ -2263,7 +2263,7 @@ img.img-auto,
   width: 50%;
 }
 .mx-menubar.menubar-col-4 ul.mx-menubar-list li.mx-menubar-item {
-  width: 33%;
+  width: 33.33333333%;
 }
 .mx-menubar.menubar-col-3 ul.mx-menubar-list li.mx-menubar-item {
   width: 25%;
@@ -2308,6 +2308,11 @@ img.img-auto,
 .mx-menubar-vertical ul.mx-menubar-list li.mx-menubar-item a.active {
   color: #59C2E6;
   background-color: #ebebeb;
+}
+
+/* Horizontal variation specifics */
+.mx-menubar-horizontal ul.mx-menubar-list li.mx-menubar-item {
+  width: auto;
 }
 
 /* ==========================================================================
