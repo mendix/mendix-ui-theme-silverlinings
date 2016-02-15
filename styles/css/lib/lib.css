@@ -3978,12 +3978,15 @@ h1, h2, h3, h4, h5, h6,
 .profile-tablet .mx-listview .mx-listview-searchbar {
   padding: 10px;
   margin-bottom: 0;
+  position: relative;
   /* Reset Search Button */
   /* Search Field */
 }
 .profile-phone .mx-listview .mx-listview-searchbar button,
 .profile-tablet .mx-listview .mx-listview-searchbar button {
-  display: none;
+  position: absolute;
+  right: 10px;
+  background: none;
 }
 .profile-phone .mx-listview .mx-listview-searchbar .mx-listview-search-input input,
 .profile-tablet .mx-listview .mx-listview-searchbar .mx-listview-search-input input {
@@ -4360,7 +4363,7 @@ body[dir="ltr"] .mx-header-right {
 ========================================================================== */
 .region-topbar {
   min-height: 80px;
-  border-bottom: 1px solid #DDD;
+  border-bottom: 1px solid whitesmoke;
   background-color: #FFF;
 }
 .region-topbar > .mx-layoutcontainer-wrapper {
