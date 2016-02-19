@@ -192,33 +192,32 @@ div[tabindex] {
 /* ==========================================================================
    Inputs
 ========================================================================== */
-.form-control, .readonly-input, .form-disabled p {
+.form-control, .form-disabled p {
   -moz-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
   -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
   -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
   transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
   box-shadow: none;
   display: block;
-  padding: 7px 8px;
+  padding: 6px 8px;
   width: 100%;
-  height: 33px;
+  height: auto;
   border: 1px solid #DDD;
   border-radius: 4px;
   background-color: #FFF;
   background-image: none;
   color: #000;
-  vertical-align: middle;
   font-size: 14px;
   line-height: 1.42857;
 }
 
-.form-control:focus, .readonly-input:focus, .form-disabled p:focus {
+.form-control:focus, .form-disabled p:focus {
   border-color: #59C2E6;
   background-color: #FFF;
   outline: 0;
 }
 
-textarea.form-control, textarea.readonly-input {
+textarea.form-control {
   height: auto;
 }
 
@@ -226,9 +225,11 @@ textarea.form-control, textarea.readonly-input {
 .form-group div[class*='textArea'] > label,
 .form-group div[class*='datePicker'] > label {
   overflow: hidden;
-  padding-top: 7px;
-  padding-bottom: 7px;
-  margin-bottom: 0;
+  min-height: auto;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  font-size: 14px;
+  line-height: 1.42857;
 }
 
 /* Not editable textarea, textarea will be rendered as a label */
@@ -236,31 +237,34 @@ textarea.form-control, textarea.readonly-input {
   height: auto;
 }
 
+/* ==========================================================================
+   Group with label and input
+========================================================================== */
 /* Input and textarea get properly aligned */
+.form-group {
+  margin-bottom: 15px;
+}
+.form-group [class*='col-'] {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.form-group .control-label {
+  color: #666;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+@media (min-width: 768px) {
+  .form-horizontal .control-label {
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+}
+
 /* ==========================================================================
    Inputs Readonly
 ========================================================================== */
-.readonly-input {
-  height: auto;
-  min-height: 33px;
-  background-color: #eee !important;
-}
-.readonly-input label {
-  padding: 0 !important;
-}
-.readonly-input textarea {
-  display: none;
-}
-
-.readonly-input-alert label {
-  color: #D9534F;
-}
-
-/* Needed for IE8, IE8 doesn't respect border-box and min-height */
-.dj_ie8 .readonly-input {
-  min-height: auto;
-}
-
 /* ==========================================================================
    Inputs File Upload
 ========================================================================== */
@@ -861,11 +865,11 @@ textarea.form-control, textarea.readonly-input {
 .mx-grid .mx-grid-searchbar .mx-grid-search-item .mx-grid-search-label label {
   padding-top: 5px;
 }
-.mx-grid .mx-grid-searchbar .mx-grid-search-item .mx-grid-search-input .form-control, .mx-grid .mx-grid-searchbar .mx-grid-search-item .mx-grid-search-input .readonly-input, .mx-grid .mx-grid-searchbar .mx-grid-search-item .mx-grid-search-input .form-disabled p, .form-disabled .mx-grid .mx-grid-searchbar .mx-grid-search-item .mx-grid-search-input p {
+.mx-grid .mx-grid-searchbar .mx-grid-search-item .mx-grid-search-input .form-control, .mx-grid .mx-grid-searchbar .mx-grid-search-item .mx-grid-search-input .form-disabled p, .form-disabled .mx-grid .mx-grid-searchbar .mx-grid-search-item .mx-grid-search-input p {
   height: 28px;
   font-size: 11px;
 }
-.mx-grid .mx-grid-searchbar .mx-grid-search-item .mx-grid-search-input select.form-control, .mx-grid .mx-grid-searchbar .mx-grid-search-item .mx-grid-search-input select.readonly-input {
+.mx-grid .mx-grid-searchbar .mx-grid-search-item .mx-grid-search-input select.form-control {
   vertical-align: middle;
   padding: 3px;
 }
@@ -1046,7 +1050,7 @@ textarea.form-control, textarea.readonly-input {
   width: 80%;
   padding-left: 0;
 }
-.mx-grid.datagrid-fullsearch .mx-grid-searchbar .mx-grid-search-input .form-control, .mx-grid.multilevel-grid .mx-grid-searchbar .mx-grid-search-input .form-control, .mx-grid.datagrid-fullsearch .mx-grid-searchbar .mx-grid-search-input .readonly-input, .mx-grid.multilevel-grid .mx-grid-searchbar .mx-grid-search-input .readonly-input, .mx-grid.datagrid-fullsearch .mx-grid-searchbar .mx-grid-search-input .form-disabled p, .form-disabled .mx-grid.datagrid-fullsearch .mx-grid-searchbar .mx-grid-search-input p, .mx-grid.multilevel-grid .mx-grid-searchbar .mx-grid-search-input .form-disabled p, .form-disabled .mx-grid.multilevel-grid .mx-grid-searchbar .mx-grid-search-input p {
+.mx-grid.datagrid-fullsearch .mx-grid-searchbar .mx-grid-search-input .form-control, .mx-grid.multilevel-grid .mx-grid-searchbar .mx-grid-search-input .form-control, .mx-grid.datagrid-fullsearch .mx-grid-searchbar .mx-grid-search-input .form-disabled p, .form-disabled .mx-grid.datagrid-fullsearch .mx-grid-searchbar .mx-grid-search-input p, .mx-grid.multilevel-grid .mx-grid-searchbar .mx-grid-search-input .form-disabled p, .form-disabled .mx-grid.multilevel-grid .mx-grid-searchbar .mx-grid-search-input p {
   height: 35px;
   font-size: 12px;
 }
@@ -3422,12 +3426,6 @@ h1, h2, h3, h4, h5, h6,
 
    To extend the default Bootstrap form
 ========================================================================== */
-.form-group .control-label {
-  margin-bottom: 5px;
-  color: #666;
-  font-weight: normal;
-}
-
 .form-footer {
   border-top: 1px solid #eee;
   padding: 10px 0;

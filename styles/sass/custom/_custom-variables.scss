@@ -169,10 +169,18 @@ $navtopbar-border-color:                $navtopbar-bg-hover;
 
 // Form Label  
 $form-label-color:                      #666;        
+$form-label-size:                       $font-base-size;        
 $form-label-weight:                     $font-weight-normal;             
 
-// Form Input
-$form-input-height:                     33px;
+// Form Input dimensions
+$form-input-height:                     auto;
+$form-input-padding-y:                  6px;
+$form-input-padding-x:                  8px;
+$form-input-font-size:                  $form-label-size;
+$form-input-line-height:                $line-height-base;
+$form-input-border-radius:              4px;
+
+// Form Input styling
 $form-input-bg:                         #FFF;
 $form-input-bg-focus:                   #FFF;
 $form-input-bg-disabled:                $gray-lighter;
@@ -182,6 +190,10 @@ $form-input-disabled-color:             $form-input-color;
 $form-input-placeholder-color:          $gray-light;
 $form-input-border-color:               $default-border-color;
 $form-input-border-focus-color:         $brand-primary;    
+
+// Form Group
+$form-group-margin-bottom:              15px;
+$form-group-gutter:                     15px;
 
 
 
