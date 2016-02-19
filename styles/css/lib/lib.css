@@ -257,6 +257,7 @@ textarea.form-control {
 
 @media (min-width: 768px) {
   .form-horizontal .control-label {
+    line-height: 1.42857;
     padding-top: 6px;
     padding-bottom: 6px;
   }
