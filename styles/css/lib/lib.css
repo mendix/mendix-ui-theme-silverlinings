@@ -923,6 +923,7 @@ textarea.form-control {
   border-top-width: 1px;
   border-top-style: solid;
   border-color: #DDD;
+  vertical-align: middle;
   /* Text without spaces */
 }
 .mx-datagrid .mx-datagrid-body-table .mx-datagrid-body tr td:focus {
@@ -936,13 +937,15 @@ textarea.form-control {
   color: #000;
 }
 .mx-datagrid .mx-datagrid-body-table .mx-datagrid-foot > tr > th {
-  padding: 1px;
+  padding: 8px 8px 8px 8px;
   background-color: #DDD;
   border-width: 0;
 }
 .mx-datagrid .mx-datagrid-body-table .mx-datagrid-foot > tr > td {
   background-color: #FFF;
   border-width: 0;
+  font-weight: bold;
+  padding: 8px 8px 8px 8px;
 }
 .mx-datagrid .mx-datagrid-body-table *:focus {
   outline: 0;
@@ -982,7 +985,6 @@ textarea.form-control {
   border: 1px solid #DDD;
 }
 .datagrid-bordered.mx-datagrid .mx-datagrid-foot > tr > th {
-  padding: 1px;
   background-color: #DDD;
   border-width: 0;
 }
@@ -3990,7 +3992,6 @@ h1, h2, h3, h4, h5, h6,
 .profile-phone .mx-listview .mx-listview-searchbar .mx-listview-search-input input,
 .profile-tablet .mx-listview .mx-listview-searchbar .mx-listview-search-input input {
   box-shadow: none;
-  padding: 0;
   border-style: none;
   background-color: #eee;
   text-align: center;
