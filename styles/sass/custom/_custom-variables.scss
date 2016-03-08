@@ -20,6 +20,10 @@ $brand-success:                         #8CC152;
 $brand-warning:                         #F6BB42;
 $brand-danger:                          #D9534F;
 
+$brand-logo:                            false;
+$brand-logo-height:                     40px;
+$brand-logo-width:                      40px; // Only used for CSS brand logo
+
 
 //== Step 2: UI Customization
 
@@ -61,6 +65,10 @@ $link-hover-color:                      darken($link-color, 15%);
 
 //== Typography
 //## Change your font family, weight, line-height, headings and more (used in components/typography)
+
+// Font Family Import
+$font-family-import:                    false;
+@import url($font-family-import);
 
 // Font Family / False = fallback from Bootstrap (Helvetica Neue)
 $font-family-base:                      false;//"Helvetica Neue", Helvetica, Arial, sans-serif;
