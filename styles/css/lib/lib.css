@@ -1,3 +1,5 @@
+@import url(false);
+@import url(false);
 @media (max-width: 767px) {
   .mx-grid,
   .mx-tabcontainer,
@@ -263,9 +265,6 @@ textarea.form-control {
   }
 }
 
-/* ==========================================================================
-   Inputs Readonly
-========================================================================== */
 /* ==========================================================================
    Inputs File Upload
 ========================================================================== */
@@ -2961,30 +2960,6 @@ h1, h2, h3, h4, h5, h6,
   color: rgba(255, 255, 255, 0.3);
 }
 
-/*
-* Mendix Documentation
-* Special styles for presenting components
-*/
-.mx-appswitcher-button-placeholder,
-.mx-profilemenu-button-placeholder {
-  display: inline-block;
-}
-.mx-appswitcher-button-placeholder iframe,
-.mx-profilemenu-button-placeholder iframe {
-  width: 48px;
-  height: 48px;
-}
-
-/*
-* Mendix App Switcher Button
-*
-* 
-*/
-/*
-* Mendix Profile Menu Button
-*
-* 
-*/
 /* ==========================================================================
    Special styles for presenting Page Template Dashboard
 ========================================================================== */
