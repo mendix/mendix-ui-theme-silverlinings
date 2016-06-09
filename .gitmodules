@@ -1,3 +1,0 @@
-[submodule "./styles/sass/lib"]
-	path = styles/sass/lib
-	url = git@github.com:mendix/mendix-ui-framework-lib.git
