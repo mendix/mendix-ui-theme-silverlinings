@@ -2495,6 +2495,75 @@ img.img-auto,
 }
 
 /* ==========================================================================
+   Tab Container Mobile
+
+   Default Mendix Tab Container Widget rendered for mobile use
+========================================================================== */
+.tab-mobile.mx-tabcontainer .mx-tabcontainer-tabs {
+  margin: 0 0 10px 0 !important;
+  border-color: transparent;
+  background-color: #59C2E6;
+  text-align: center;
+}
+.tab-mobile.mx-tabcontainer .mx-tabcontainer-tabs li {
+  display: table-cell;
+  float: none;
+  margin: 0;
+  width: 1%;
+}
+.tab-mobile.mx-tabcontainer .mx-tabcontainer-tabs li a {
+  padding: 15px 0;
+  border-style: none;
+  color: #FFF;
+  font-weight: normal;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+.tab-mobile.mx-tabcontainer .mx-tabcontainer-tabs li a:hover, .tab-mobile.mx-tabcontainer .mx-tabcontainer-tabs li a:focus {
+  color: #000;
+  border-style: none;
+  background-color: transparent;
+}
+.tab-mobile.mx-tabcontainer .mx-tabcontainer-tabs li.active a {
+  color: #000;
+  background-color: transparent;
+  position: relative;
+}
+.tab-mobile.mx-tabcontainer .mx-tabcontainer-tabs li.active a:after, .tab-mobile.mx-tabcontainer .mx-tabcontainer-tabs li.active a:before {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: solid transparent;
+  border-color: transparent;
+  content: " ";
+  pointer-events: none;
+}
+.tab-mobile.mx-tabcontainer .mx-tabcontainer-tabs li.active a:after, .tab-mobile.mx-tabcontainer .mx-tabcontainer-tabs li.active a:before {
+  top: 100%;
+}
+.tab-mobile.mx-tabcontainer .mx-tabcontainer-tabs li.active a:after {
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px 5px;
+  border-top-color: #FFF;
+}
+.tab-mobile.mx-tabcontainer .mx-tabcontainer-tabs li.active a:before {
+  left: 50%;
+  margin-left: -5px;
+  border-width: 6px 5px;
+  border-top-color: #FFF;
+}
+.tab-mobile.mx-tabcontainer .mx-tabcontainer-tabs li.active a:after, .tab-mobile.mx-tabcontainer .mx-tabcontainer-tabs li.active a:before {
+  -webkit-transform: rotate(180deg);
+}
+.tab-mobile.mx-tabcontainer .mx-tabcontainer-tabs li.active a:after {
+  top: 80%;
+}
+.tab-mobile.mx-tabcontainer .mx-tabcontainer-tabs li.active a:before {
+  top: 75%;
+}
+
+/* ==========================================================================
    Tables
 
    Default Mendix Table Widget. Tables can be used to lend structure to a page. They contain a number of rows (tr) and columns, the intersection of which is called a cell (td). Each cell can contain widgets
@@ -3555,6 +3624,10 @@ h1, h2, h3, h4, h5, h6,
   margin-bottom: 0;
 }
 
+.profile-tablet .pageheader.pageheader-fullwidth {
+  border-style: none;
+}
+
 .pageheader-title {
   margin-bottom: 0;
   margin-top: 0;
@@ -4234,99 +4307,26 @@ body[dir="ltr"] .mx-header-right {
   text-align: right;
 }
 
-/*
-* Mendix Documentation
-* Special styles for presenting mobile components
-*/
-/*
-* Tabcontainer
-*
-* Default Mendix Tabcontainer for Mobile 
-*/
-.profile-phone .mx-tabcontainer-tabs,
-.profile-tablet .mx-tabcontainer-tabs {
-  margin: 0;
-  padding: 0;
-  border-color: transparent;
-  background-color: #59C2E6;
-  text-align: center;
+/* ==========================================================================
+   Tabcontainer
+
+   Default Mendix Tabcontainer for Mobile 
+========================================================================== */
+.profile-phone .mx-tabcontainer .mx-tabcontainer-tabs {
+  margin: 10px;
 }
-.profile-phone .mx-tabcontainer-tabs li,
-.profile-tablet .mx-tabcontainer-tabs li {
+
+.profile-phone .mx-tabcontainer .mx-listview .mx-listview-searchbar,
+.profile-tablet .mx-tabcontainer .mx-listview .mx-listview-searchbar {
+  padding-top: 0;
+}
+.profile-phone .tab-pills.mx-tabcontainer .mx-tabcontainer-tabs > li,
+.profile-tablet .tab-pills.mx-tabcontainer .mx-tabcontainer-tabs > li {
   display: table-cell;
   float: none;
   margin: 0;
   width: 1%;
-}
-.profile-phone .mx-tabcontainer-tabs li a,
-.profile-tablet .mx-tabcontainer-tabs li a {
-  border-radius: 0;
-  box-shadow: none;
-  margin: 0;
-  padding: 15px 0;
-  border-style: none;
-  color: #FFF;
-  font-weight: normal;
-  font-size: 11px;
-  text-transform: uppercase;
-}
-.profile-phone .mx-tabcontainer-tabs li a:hover, .profile-phone .mx-tabcontainer-tabs li a:focus, .profile-phone .mx-tabcontainer-tabs li a.active,
-.profile-tablet .mx-tabcontainer-tabs li a:hover,
-.profile-tablet .mx-tabcontainer-tabs li a:focus,
-.profile-tablet .mx-tabcontainer-tabs li a.active {
-  color: #000 !important;
-  border-style: none;
-  background-color: transparent;
-}
-.profile-phone .mx-tabcontainer-tabs li.active a,
-.profile-tablet .mx-tabcontainer-tabs li.active a {
-  color: #000;
-  border-style: none !important;
-  background-color: transparent !important;
-  position: relative;
-}
-.profile-phone .mx-tabcontainer-tabs li.active a:after, .profile-phone .mx-tabcontainer-tabs li.active a:before,
-.profile-tablet .mx-tabcontainer-tabs li.active a:after,
-.profile-tablet .mx-tabcontainer-tabs li.active a:before {
-  position: absolute;
-  width: 0;
-  height: 0;
-  border: solid transparent;
-  border-color: transparent;
-  content: " ";
-  pointer-events: none;
-}
-.profile-phone .mx-tabcontainer-tabs li.active a:after, .profile-phone .mx-tabcontainer-tabs li.active a:before,
-.profile-tablet .mx-tabcontainer-tabs li.active a:after,
-.profile-tablet .mx-tabcontainer-tabs li.active a:before {
-  top: 100%;
-}
-.profile-phone .mx-tabcontainer-tabs li.active a:after,
-.profile-tablet .mx-tabcontainer-tabs li.active a:after {
-  left: 50%;
-  margin-left: -5px;
-  border-width: 5px 5px;
-  border-top-color: #FFF;
-}
-.profile-phone .mx-tabcontainer-tabs li.active a:before,
-.profile-tablet .mx-tabcontainer-tabs li.active a:before {
-  left: 50%;
-  margin-left: -5px;
-  border-width: 6px 5px;
-  border-top-color: #FFF;
-}
-.profile-phone .mx-tabcontainer-tabs li.active a:after, .profile-phone .mx-tabcontainer-tabs li.active a:before,
-.profile-tablet .mx-tabcontainer-tabs li.active a:after,
-.profile-tablet .mx-tabcontainer-tabs li.active a:before {
-  -webkit-transform: rotate(180deg);
-}
-.profile-phone .mx-tabcontainer-tabs li.active a:after,
-.profile-tablet .mx-tabcontainer-tabs li.active a:after {
-  top: 80%;
-}
-.profile-phone .mx-tabcontainer-tabs li.active a:before,
-.profile-tablet .mx-tabcontainer-tabs li.active a:before {
-  top: 75%;
+  text-align: center;
 }
 
 /* ==========================================================================
