@@ -1076,6 +1076,10 @@ textarea.form-control {
 }
 .mx-dataview .mx-dataview-controls .mx-button {
   margin-bottom: 0;
+  margin-right: 0.3em;
+}
+.mx-dataview .mx-dataview-controls .mx-button:last-child {
+  margin-right: 0;
 }
 .mx-dataview > .mx-dataview-content > .mx-container-nested > .row {
   margin-right: 0;
