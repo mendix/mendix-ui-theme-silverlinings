@@ -4417,11 +4417,12 @@ body[dir="ltr"] .mx-header-right {
 @media (min-width: 768px) {
   .layout-sidebar-responsive .region-sidebar-fixed {
     position: fixed;
+    top: 80px;
+    bottom: 0;
     z-index: 10;
     display: block;
     overflow-x: hidden;
     overflow-y: auto;
-    height: 100%;
     padding: 0;
   }
 }
