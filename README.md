@@ -48,7 +48,7 @@ Resources combine startup images and icons to support Windows, Android and Apple
 #### Other files
 
 ###### components.json
-This file is needed for creating hybrid apps with Mendix. Read more about this [here](https://world.mendix.com/display/refguide5/Customizing+Hybrid+Mobile+Apps).
+This file is needed for creating hybrid apps with Mendix. Read more about this [here](https://docs.mendix.com/refguide/customizing-hybrid-mobile-apps).
 ###### config.rb
 Sass/Compass compilers need a config file called config.rb in which the settings of the project are defined. The compiler will read this and use the settings when compiling your css.
 
@@ -59,7 +59,7 @@ The theme has to be added to the following folder */project-directory/theme*. Ma
 - [Live theme demo](https://ux.mendix.com/index-theme-silver_linings.html)
 - [Mendix UI Framework Website](https://ux.mendix.com/)
 - [Blog article about Mendix UI Framework](https://www.mendix.com/blog/the-eye-catching-mendix-ui-framework/)
-- [Create a custom theme with the Mendix UI Framework](https://world.mendix.com/display/howto50/Create+a+custom+theme+with+the+Mendix+UI+Framework)
+- [Create a custom theme with the Mendix UI Framework](https://docs.mendix.com/howto/ux/create-a-custom-theme-with-the-mendix-ui-framework)
 
 ### License
 
